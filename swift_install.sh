@@ -34,7 +34,7 @@ cd isa-l
 ./autogen.sh
 ./configure --prefix=/usr --libdir=/usr/lib
 make && sudo make install
-sudo -
+cd -
 
 sudo ldconfig
 
